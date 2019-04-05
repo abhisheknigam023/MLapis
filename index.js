@@ -33,7 +33,7 @@ convert('./df.mp4', './output.wav', function(err){
     // pull in the required packages.
     var sdk = require("microsoft-cognitiveservices-speech-sdk");
     var fs = require("fs");
-    
+    var app = require('./app');
     var settings = require("./settings");
     var speech = require("./speech");
     var intent = require("./intent");
