@@ -1,0 +1,6 @@
+{
+    "Production": false,
+    "DB": { 
+        "url": "mongodb://localhost:27017/KTM"
+    }
+}
